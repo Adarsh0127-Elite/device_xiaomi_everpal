@@ -28,9 +28,7 @@ vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
-vendor/lib/libbwc.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib/libladder.so
 vendor/lib64/libmisoundcrossfade.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
@@ -1010,11 +1008,8 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 
 # Fuelgauge
-vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
-vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
-vendor/lib/libfgauge_gm30.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
@@ -1153,17 +1148,6 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 
 # Media
-vendor/bin/vpud
-vendor/etc/init/vpud.rc
-vendor/lib/libion_mtk.so
-vendor/lib/libion_ulit.so
-vendor/lib/libvcodec_oal.so
-vendor/lib/libvcodec_utility.so
-vendor/lib/libvcodecdrv.so
-vendor/lib/libvcodecdrv_header_stub.so
-vendor/lib/libvpu5.so
-vendor/lib/libvpud_vcodec.so
-vendor/lib/mt6833/libmtk_drvb.so;SYMLINK=vendor/lib/libmtk_drvb.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/HEVCSecureVdecCA.so
 vendor/lib64/VP9SecureVdecCA.so
@@ -1187,9 +1171,6 @@ vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
-vendor/lib/libfile_op.so
-vendor/lib/libnvram.so
-vendor/lib/libnvram_sec.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/libconnfem.so
 vendor/lib64/libcustom_nvram.so
@@ -1223,7 +1204,6 @@ vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 # Radio
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
-vendor/bin/gsm0710muxd
 vendor/bin/hw/mtkfusionrild
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
@@ -1235,7 +1215,6 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/ecc_list_OP236.xml
 vendor/etc/ecc_list_preference.xml
-vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/mtkrild.rc
@@ -1245,10 +1224,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/lib/libaedv.so
-vendor/lib/libmtkcutils.so
-vendor/lib/libmtkproperty.so
-vendor/lib/libmtkrillog.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so

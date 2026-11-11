@@ -26,12 +26,6 @@ TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
 
-TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-2a
-TARGET_2ND_CPU_ABI := armeabi-v7a
-TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := cortex-a55
-
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := evergo,evergreen,everpal,opal
 
@@ -58,17 +52,11 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 TARGET_BOOTLOADER_BOARD_NAME := everpal
 TARGET_NO_BOOTLOADER := true
 
+# Audio
+AUDIOSERVER_MULTILIB := first
+
 # Display
 TARGET_SCREEN_DENSITY := 440
-
-# Enable 64-bit for non-zygote.
-ZYGOTE_FORCE_64 := true
-
-# Include 64-bit drmserver to support 64-bit only devices
-TARGET_DYNAMIC_64_32_DRMSERVER := true
-
-# Include 64-bit mediaserver to support 64-bit only devices
-TARGET_DYNAMIC_64_32_MEDIASERVER := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6833

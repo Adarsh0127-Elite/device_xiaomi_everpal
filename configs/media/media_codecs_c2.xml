@@ -132,7 +132,7 @@
         </MediaCodec>
         <MediaCodec name="c2.mtk.avc.encoder" type="video/avc" >
             <Alias name="OMX.MTK.VIDEO.ENCODER.AVC" />
-            <Limit name="size" min="160x160" max="2560x1440" />
+            <Limit name="size" min="160x128" max="2560x1440" />
             <Limit name="alignment" value="16x16" />
             <Limit name="block-size" value="16x16" />
             <Limit name="concurrent-instances" max="10" />
